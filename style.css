@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    font-family: roboto;
 }
 
 li {
@@ -18,13 +20,30 @@ a {
 
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    
+    align-items: center;
+    margin: 0px;
+}
+
+.left {
+    display: flex;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .right {
+    display: flex;
     justify-content: end;
+    
+}
+
+
+
+.link {
+    display: flex;
+    padding: 12px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .intro {
@@ -36,8 +55,63 @@ a {
     flex-direction: column;
 }
 
+.intro-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.specs {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+img.simg {
+    border: 2px;
+    border-color: #3882F6;
+}
+
 .quote {
     background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote-text, .quote-giver {
+    font-size: 24px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-giver {
+    text-align: end;
+}
+
+.buy {
+    background-color: #3882F6;
+    color:#E5E7EB;
 }
 
 .footer {
