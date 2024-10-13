@@ -1,8 +1,47 @@
 body {
     display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header, .intro, .footer {
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
+}
+
+.right {
+    justify-content: end;
+}
+
+.intro {
+    display: flex;
+}
+
+.left-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 24px;
 }
