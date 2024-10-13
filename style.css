@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     font-family: roboto;
+    /* overflow: hidden; */
 }
 
 li {
@@ -37,8 +38,6 @@ a {
     
 }
 
-
-
 .link {
     display: flex;
     padding: 12px;
@@ -50,13 +49,20 @@ a {
     display: flex;
 }
 
+.main-img {
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    padding: 48px 0px;
+}
+
 .left-intro {
     display: flex;
     flex-direction: column;
 }
 
 .intro-title {
-    font-size: 48px;
+    font-size: 36px;
     color: #F9FAF8;
     font-weight: 900;
 }
@@ -89,29 +95,60 @@ a {
     flex-basis: 300px;
 }
 
-img.simg {
+.simg {
     border: 2px;
     border-color: #3882F6;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px;
+    padding: 76px 200px;
 }
 
 .quote-text, .quote-giver {
     font-size: 24px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
 }
 
 .quote-giver {
     text-align: end;
+    font-style: normal;
 }
 
 .buy {
+    display: flex;
     background-color: #3882F6;
     color:#E5E7EB;
+    margin: 100px 200px;
+    border-radius: 8px;
+    padding: 24px 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buy-title {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    color:#E5E7EB;
+    margin: 0px;
+}
+
+.buy-content {
+    display: flex;
+    margin: 0px;
+}
+
+.buy2 {
+    display: flex;
+    color:#F9FAF8;
+    border-radius: 2px;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
 }
 
 .footer {
